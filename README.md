@@ -4,18 +4,22 @@ This Project is StarterKit for Telegraf Bot with TypeScript.
 
 ## Installation
 
-Install my-project with npm
+- Use Starter-Kit By Cloning It
 
 ```bash
   git clone https://github.com/ChopLoris/starterkit-telegraf-bot.git
+
   cd starterkit-telegraf-bot
+
   npm install
-  * Dont forget created .env.local
+
+  * Dont forget to create .env.local in root dir
+
   npm run dev
 ```
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to add the following environment variables to your .env.local file
 
 `TELEGRAM_BOT_TOKEN`
