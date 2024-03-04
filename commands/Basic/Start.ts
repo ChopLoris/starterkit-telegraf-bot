@@ -22,7 +22,7 @@ ${bold`Chat ID :`} @${ctx.from.username ?? ''}
 
 ${bold`[ System Info ] :`}
 ${bold`System Status :`} Online
-${bold`Owner :`} @Noblesse_Raizel
+${bold`Owner :`} @ChopLoris
 ${bold`CPU (%) :`} ${isNaN(await os.cpu.usage()) ? '0' : await os.cpu.usage()}%
 ${bold`RAM (%) :`} ${(await os.mem.info()).usedMemPercentage}%
 ${bold`Time [IST] :`} ${dayjs.tz().format('DD-MM-YYYY hh:mm A')}
